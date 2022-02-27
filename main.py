@@ -45,6 +45,7 @@ def main():
     draw_info = DrawingInfomartion(800,600,lst)
 
     while run:
+        clock.tick(60)
         pygame.display.update()
 
         for events in pygame.event.get():
